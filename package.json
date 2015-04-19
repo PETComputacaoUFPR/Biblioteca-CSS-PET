@@ -1,0 +1,24 @@
+{
+  "name": "pet-css",
+  "version": "0.1.0-pre",
+  "description": "CSS library made by PET Computação UFPR that can be used in web projects",
+  "main": "scss/style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VytorCalixto/pet-css.git"
+  },
+  "keywords": [
+    "css",
+    "pet",
+    "ufpr"
+  ],
+  "author": "PET Computação UFPR <pet@inf.ufpr.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VytorCalixto/pet-css/issues"
+  },
+  "homepage": "https://github.com/VytorCalixto/pet-css"
+}
