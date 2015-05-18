@@ -4,6 +4,12 @@
 //FontAwesome
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 //----------------------Imports-------------------------------------------------
 //Utils são ferramentas e facilidades, como posicionamento, grid e mixins
 @import "utils/utils";
@@ -34,7 +40,7 @@
 .content{
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 3*$padding;
+//    padding-bottom: 3*$padding;
     @include breakpoint(medium){
         padding-left: 5%;
         padding-right: 5%;
