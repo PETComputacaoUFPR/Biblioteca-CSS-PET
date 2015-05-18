@@ -1,6 +1,6 @@
 {
   "name": "pet-css",
-  "version": "0.1.0-pre",
+  "version": "0.1.1-pre",
   "description": "CSS library made by PET Computação UFPR that can be used in web projects",
   "main": "scss/style.scss",
   "scripts": {

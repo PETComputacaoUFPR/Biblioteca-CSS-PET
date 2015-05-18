@@ -1,6 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Lato:100,300,400);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+* {
+  box-sizing: border-box; }
+
 /*Mixin para breakpoints
 * Uso:
 * @include breakpoint(xlarge){width: 100%}
@@ -388,15 +391,16 @@
 .all-caps, .navbar .brand, .navbar-positive .brand, .navbar-calm .brand, .navbar-energized .brand, .navbar-dark .brand, .logo {
   text-transform: uppercase; }
 
-html, body {
-  height: 100%; }
+html {
+  min-height: 100%;
+  position: relative; }
 
 body {
   font-family: 'Open Sans', sans-serif;
   background: #FAFAFA;
   margin: 0;
   min-height: 100%;
-  position: relative; }
+  padding-bottom: 7em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif; }
@@ -863,14 +867,16 @@ select {
     box-shadow: 0 2px 5px #aaa; }
 
 .page-wrap {
-  min-height: 100%;
   margin-bottom: 4em; }
   .page-wrap:after {
     content: "";
     display: block; }
 
-.sticky, .page-wrap:after {
-  height: 4em; }
+.sticky {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7em; }
 
 .post .post-image {
   max-width: 100%; }
@@ -885,6 +891,8 @@ select {
 .post-list .post .post-title {
   border: none;
   font-weight: bold; }
+.post-list .post .post-body {
+  padding-left: 1.5rem; }
 .post-list .post .post-content {
   overflow: hidden;
   max-width: 100%; }
@@ -902,8 +910,7 @@ select {
 
 .content {
   padding-left: 15%;
-  padding-right: 15%;
-  padding-bottom: 4.5rem; }
+  padding-right: 15%; }
   @media screen and (max-width: 55em) {
     .content {
       padding-left: 5%;
