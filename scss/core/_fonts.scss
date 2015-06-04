@@ -1,0 +1,43 @@
+// FontAwesome
+@import url(../lib/fonts/FontAwesome/css/font-awesome.min.css);
+
+// Text Fonts
+// Lato
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(../lib/fonts/Lato/Lato-Hairline.ttf);
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(../lib/fonts/Lato/Lato-Light.ttf);
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(../lib/fonts/Lato/Lato-Regular.ttf);
+}
+
+// Open Sans
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../lib/fonts/OpenSans/OpenSans-Light.ttf);
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../lib/fonts/OpenSans/OpenSans-Regular.ttf);
+}
