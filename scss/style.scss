@@ -36,8 +36,8 @@
     padding-right: 15%;
 //    padding-bottom: 3*$padding;
     @include breakpoint(medium){
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
         padding-bottom: $padding;
     }
 }

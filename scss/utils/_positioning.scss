@@ -70,6 +70,20 @@
     padding-right: $padding*2;
 }
 
+.md-no-padding {
+	@include breakpoint(medium){ 
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.sm-no-padding {
+	@include breakpoint(small){ 
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 .center-vertical{
     margin: auto 0 auto 0;
 }
