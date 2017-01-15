@@ -59,7 +59,13 @@
 .col-11-12 {
   width: 91.625%; }
 
-.col-12-12, .col-6-6, .col-3-3, .col-1-1 {
+.col-1-1 {
+  width: 90%; 
+ clear: both;
+ margin-left: 5%;
+   }
+  
+.col-12-12, .col-6-6, .col-3-3 {
   width: 100%; }
 
 @media screen and (max-width: 80em) {
